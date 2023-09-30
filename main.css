@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#showcase {
+  background: url("showcase.jpg");
+  background-size: cover;
+  height: 740px;
+}
+#showcase h1 {
+  color: whitesmoke;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 55px;
+  text-align: center;
+  padding-top: 240px;
+}
+#highlight {
+  color: orange;
+}
+#firstp {
+  width: 200px;
+  margin: auto;
+  color: whitesmoke;
+  padding: 20px 0px;
+  font-family: "Times New Roman", Times, serif;
+}
+#secondp {
+  width: 350px;
+  margin: auto;
+  color: whitesmoke;
+  padding-bottom: 40px;
+}
+
+#showcase a {
+  color: white;
+  background-color: black;
+  display: block;
+  margin: auto;
+  width: 200px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px 0;
+}
+#showcase a:hover {
+  background-color: orange;
+  color: black;
+}
+
+#section-one {
+  background-color: black;
+  overflow: auto;
+}
+#building-image img {
+  max-width: 50%;
+  float: left;
+}
+#history h2,
+.historyp {
+  float: right;
+  color: whitesmoke;
+  text-align: center;
+  width: 50%;
+  padding: 10px;
+}
+#location {
+  width: 33%;
+  display: inline-block;
+}
+#location img {
+  width: 100px;
+  display: block;
+  padding-top: 50px;
+  margin: auto;
+}
+.location-h1 {
+  width: 130px;
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+}
+.locationp1 {
+  width: 100px;
+  text-align: center;
+  margin: auto;
+}
+#dining {
+  width: 33%;
+  display: inline-block;
+  background-color: rgb(236, 192, 109);
+  padding-top: 20px;
+}
+#dining img {
+  width: 100px;
+  display: block;
+  padding-top: 50px;
+  margin: auto;
+  margin-top: 0;
+}
+.dining-h1 {
+  width: 130px;
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+}
+.diningp1 {
+  width: 100px;
+  text-align: center;
+  margin: auto;
+}
+#fitness {
+  width: 33%;
+  display: inline-block;
+}
+#fitness img {
+  width: 100px;
+  display: block;
+
+  margin: auto;
+}
+.fitness-h1 {
+  width: 130px;
+  text-align: center;
+  padding-bottom: 40px;
+  margin: auto;
+}
+.fitnessp1 {
+  width: 100px;
+  text-align: center;
+  margin: auto;
+}

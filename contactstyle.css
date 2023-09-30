@@ -1,0 +1,42 @@
+#section-one h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 45px;
+  padding: 20px;
+}
+#highlight {
+  color: orange;
+}
+#section-one p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding: 20px;
+}
+#section-one label {
+  display: block;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+#name,
+#email,
+#message {
+  margin-left: 20px;
+}
+#message {
+  margin-bottom: 30px;
+}
+#btn {
+  display: block;
+  background-color: black;
+  padding: 10px 20px;
+  margin: 20px;
+  margin-bottom: 20px;
+  width: 90px;
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 20px;
+}
+#btn:hover {
+  background-color: orange;
+  color: black;
+}
